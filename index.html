@@ -11,17 +11,33 @@
 </head>
 <body>
     <h1>Taller TypeScript1</h1>
-    <div>
-        <table class="table" id="series">
-            <thead class="thead-dark">
-                <tr>
-                    <th>#</th>
-                    <th>Name</th>
-                    <th>Channel</th>
-                    <th>Seasons</th>
-                </tr>
-            </thead>
-        </table>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <table class="table" id="series">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Channel</th>
+                            <th>Seasons</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            
+            <div class="col" id="fichaSerie" style="display: none">
+                <div class="card">
+                    <img src="" alt="imagen representativa de la serie">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text"></p>
+                        <a href="#">url</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
